@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Lalezar & display=swap');
+
+
+body{
+    font-family: 'Lalezar', cursive;
+    background-color:rgb(3, 11, 58)
+
+
+}
+.page
+{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+/*header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*navigation*/
+ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+li
+{
+    margin-right: 15px;
+}
+
+/*articles*/
+.article 
+{
+    width: 700px;
+    margin: auto;
+    color: wheat;
+}
+
+.p1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.p4
+{
+    display: flex;
+    justify-content: space-between;
+}
+.p5
+{
+    display: flex;
+    justify-content: space-between;
+}
+.p6
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3
+{
+    width: 500px;
+}
+h4
+{
+    opacity: 0.3;
+}
+p
+{
+    border-top: 1px solid black ;
+    color:wheat
+    opacity: 0.3;
+}
+a
+{
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer;
+
+}
+h1:hover
+{
+    font-style: italic;
+    color: rgb(150, 6, 6);
+}
